@@ -1,0 +1,5 @@
+GET         /books              controllers.BookController.findAll()
+GET         /books/:id          controllers.BookController.findById(id: java.util.UUID)
+POST        /books              controllers.BookController.insert
+PUT         /books/:id          controllers.BookController.update(id: java.util.UUID)
+DELETE      /books/:id          controllers.BookController.delete(id: java.util.UUID)
