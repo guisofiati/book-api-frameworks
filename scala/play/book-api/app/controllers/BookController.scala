@@ -1,4 +1,4 @@
-package repositories.controllers
+package controllers
 
 import dtos.BookDto
 import jakarta.inject.{Inject, Singleton}
